@@ -1,0 +1,140 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+body{
+    background-color: white;
+    font-family: 'Assistant', sans-serif;
+}
+
+/*    menu de navegacion   */
+.header{
+    background-color: rgb(6, 33, 143);
+    display: flex;
+    justify-content: right;
+
+}
+li{
+    /* elimina el formato de puntos de la lista */
+    list-style: none;
+}
+
+.menu li a{
+    color: white;
+    /* elimina el fromato surayado de la etiqueta (a) */
+    text-decoration: none;
+    display: block;
+    padding: 5px 19px 5px 19px;
+    margin-top: 22px;
+}
+.menu > li{
+    float: left;
+    font-size: 18px;
+}
+.menu li a:hover{
+    background-color: rgb(88, 125, 199);
+    text-decoration:underline;
+}
+.menu li ul{
+    padding-left: 35px;
+    display: none;
+    min-width: 140px;
+}
+.menu li:hover > ul{
+    display: block;
+}
+h1{
+    margin: 1cm 7cm 0.2cm 0cm;
+    font-family: Lucida Calligraphy;
+    color: white;
+    font-size: 20px;
+}
+.header h2{
+    margin:0.5% 0% 0% 0%;
+    font-size: 20px;
+    color: white;
+}
+/*---------------------------------------*/
+
+
+/*   NAV    */
+.nav{
+    padding: 5% 0% 4% 0%;
+    /* border: 2px solid rgb(10, 8, 9); */
+    line-height: 5em;
+}
+.nav .logo{
+    float: left;
+    width: 25%;
+}
+.nav .titulo{
+    font-size: 70px;
+    font-family: Lucida Calligraphy;
+    color: rgb(6, 33, 143);
+    text-align: center;
+    text-shadow: 0 5px 9px black;
+}
+.nav .sub{
+    font-size: 37px; 
+    color: rgb(240, 47, 13);
+    text-align: center;
+}
+/*----------------------------------------*/
+
+/*  CONTEN   */
+.conten{
+    font-family: 'Assistant', sans-serif;
+    margin: 6% 6% 0% 6%;
+    background-color: rgba(194, 210, 245, 0.905);
+    padding: 3% 2% 3% 2%;
+    box-shadow: 0 5px 15px black;
+    font-size:20px;
+}
+
+/*   footer   */
+footer{
+    background-color: rgb(6, 33, 143);
+    color: white;
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+.foot{
+    display: flex;
+    margin-top: 1%;
+    padding: 0% 0% 0% 11.3%;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.foot .num{
+    margin-right: 250px;
+}
+.foot .face{
+    margin-right: 250px;
+}
+
+.colum img{
+    width: 32px;
+    padding-top: 10px;
+}
+.colum label{
+    font-size: 20px;
+    padding-left: 7px;
+    margin-bottom: 2%;
+}
+
+
+/* caption{
+    margin-bottom: 5px;
+}
+table{
+    border-spacing: 250px 20px;
+    width: 50%;
+} */
+
+/*------------------------------------------- */

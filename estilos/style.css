@@ -1,0 +1,273 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+}
+body{
+    background-color: white;
+    font-family: 'Assistant', sans-serif;
+}
+
+/*    menu de navegacion   */
+.header{
+    background-color: rgb(6, 33, 143);
+    display: flex;
+    justify-content: right;
+
+}
+li{
+    /* elimina el formato de puntos de la lista */
+    list-style: none;
+}
+
+.menu li a{
+    color: white;
+    /* elimina el fromato surayado de la etiqueta (a) */
+    text-decoration: none;
+    display: block;
+    padding: 5px 19px 5px 19px;
+    margin-top: 22px;
+}
+.menu > li{
+    float: left;
+    font-size: 18px;
+}
+.menu li a:hover{
+    background-color: rgb(88, 125, 199);
+    text-decoration:underline;
+}
+.menu li ul{
+    padding-left: 35px;
+    display: none;
+    min-width: 140px;
+}
+.menu li:hover > ul{
+    display: block;
+}
+h1{
+    margin: 1cm 7cm 0.2cm 0cm;
+    font-family: Lucida Calligraphy;
+    color: white;
+    font-size: 20px;
+}
+.header h2{
+    margin:0.5% 0% 0% 0%;
+    font-size: 20px;
+    color: white;
+}
+/*---------------------------------------*/
+
+
+/*   NAV    */
+.nav{
+    padding: 5% 0% 4% 0%;
+    /* border: 2px solid rgb(10, 8, 9); */
+    line-height: 5em;
+}
+.nav .logo{
+    float: left;
+    width: 25%;
+}
+.nav .titulo{
+    font-size: 70px;
+    font-family: Lucida Calligraphy;
+    color: rgb(6, 33, 143);
+    text-align: center;
+    text-shadow: 0 5px 9px black;
+}
+.nav .sub{
+    font-size: 37px; 
+    color: rgb(240, 47, 13);
+    text-align: center;
+}
+/*----------------------------------------*/
+
+
+/*  CONTEN   */
+.conten{
+    font-family: 'Assistant', sans-serif;
+    margin: 6% 6% 0% 6%;
+    background-color: rgba(194, 210, 245, 0.905);
+    padding: 3% 2% 3% 2%;
+    box-shadow: 0 5px 15px black;
+    font-size:20px;
+}
+h4{
+    text-align: justify;
+    line-height: 2em;
+}
+.parrafo3{
+    margin: 15% 0% 0% 0%;
+}
+
+.conten h3{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(240, 47, 13);
+    margin: 0px 0px 70px 0px;
+    font-size: 40px;
+    /* text-shadow: 0 5px 20px black; */
+}
+
+    /*   SLIDER   */
+    .SLIDER{
+        float: right;
+        width: 35%;
+        overflow: hidden;
+        /* 0 0 0 5px rgb, */
+        box-shadow: 0px 0px 30px rgb(240, 47, 13);
+        /* box-shadow: 0 0 0 5px rgb(240, 47, 13); */
+        border-radius: 5px;
+        margin: 1.5% 1% 0% 4%;
+    }
+    .SLIDER ul{
+        display: flex;
+        padding: 0% 5% 5% 0%;
+        width: 500%;
+
+        animation: cambio 10s infinite ;
+    }
+    .SLIDER li{
+        height: 300px;
+        list-style: none;
+    }
+    .SLIDER li img{
+        width: 100%;
+        height: 90%;
+    }
+    .SLIDER h5{
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        padding: 10px;
+        font-size: 25px;
+        color: rgb(6, 33, 143)
+    }
+ 
+    @keyframes cambio{ 
+        /* IMAGEN 1 */
+        0% {margin-left: 0;}
+        15% {margin-left: 0;}
+
+        /* IMAGEN 2 */
+        25% {margin-left: -100%;}
+        35% {margin-left: -100%;}
+
+        /* IMAGEN 3 */
+        45% {margin-left: -200%;}
+        55% {margin-left: -200%;}
+
+        /* IMAGEN 4 */
+        65% {margin-left: -300%;}
+        75% {margin-left: -300%;}
+
+        /* IMAGEN 5 */
+        85% {margin-left: -400%;}
+        100% {margin-left: -400%;}  
+    }
+
+    /*-----------------------------------  */
+/*---------------------------------------- */
+
+
+/*   GALERIA DE PRINCIPIOS */
+.galeri_conten{
+    box-shadow: 0 1px 25px rgb(240, 47, 13);
+    border-radius: 5px;
+    background-color: white;
+    width: 100%;
+}
+.galeri{
+    border-spacing: 90px 40px;
+    padding-left: 15%;
+}
+    
+    /* .galeri_conten1{
+        margin: 40px 0px 20px 100px;
+        box-shadow: 0 4px 8px rgb(208, 78, 39), 0 1px 20px 0 black;
+        width: 300px;
+        float: left;
+        background-color: white;
+    } */
+table .foto p{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 33, 143);
+}
+.foto img{
+    width: 100%;
+}
+table .galeri_conten:hover{
+    width: 110%;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(6, 33, 143);
+    /* transform: rotate(-1deg); */
+}
+table .galeri_conten .pie{
+    text-align: center;
+    padding: 10px;
+}
+/*---------------------------------------  */
+
+
+/* HISTORIA */
+.yo{
+    font-size: 30px;
+    margin-top: 5%;
+    margin-bottom: 3%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.mifoto{
+    float: left;
+    margin-right: 7px;
+    margin-top: 10px;
+
+}
+
+/*--------------------------------------- */
+
+/*   footer   */
+footer{
+    background-color: rgb(6, 33, 143);
+    color: white;
+    margin-top: 3%;
+    padding-bottom: 3%;
+}
+.foot{
+    display: flex;
+    margin-top: 1%;
+    padding: 0% 0% 0% 11.3%;
+    /* border: 1px solid red; */
+    width: 100%;
+}
+footer p{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 25px;
+}
+.foot .num{
+    margin-right: 250px;
+}
+.foot .face{
+    margin-right: 250px;
+}
+
+.colum img{
+    width: 32px;
+    padding-top: 10px;
+}
+.colum label{
+    font-size: 20px;
+    padding-left: 7px;
+    margin-bottom: 2%;
+}
+
+
+/* caption{
+    margin-bottom: 5px;
+}
+table{
+    border-spacing: 250px 20px;
+    width: 50%;
+} */
+
+/*------------------------------------------- */
