@@ -1,0 +1,162 @@
+<?php include("plantillas/encabezado.php")?>
+
+
+    <!-- CONTENIDO DE LA PAGINA-->
+    <div class="conten">
+        <h3>¿ QUE SERVICIOS OFRESEMOS ?</h3>
+        <div class="SLIDER">
+            <ul>
+                <li>
+                    <h5>Albañileria</h5>
+                    <img class="img1" src="imagenes/trabajos/albañileria.jpg" alt="albañileria">
+                </li>
+                <li>
+                    <h5>Fontaneria y Plomeria</h5>
+                    <img class="img2" src="imagenes/trabajos/fontantenira y plomeria.jpg" alt="fontantenira y plomeria">
+                </li>
+                <li>
+                    <h5>Electricidad</h5>
+                    <img class="img3" src="imagenes/trabajos/electricidad.jpg" alt="electricidad">
+                </li>
+                <li>
+                    <h5>Pintura</h5>
+                    <img class="img4" src="imagenes/trabajos/pintura.jpg" alt="pintura">
+                </li>
+                <li>
+                    <h5>Y muhos mas</h5>
+                    <img class="img5" src="imagenes/trabajos/mas.jpg" alt="mas">
+                </li>
+            </ul>
+        </div>
+        <h4>La compañia Multiservicios Vázquez cuenta con 
+            una gran variedad de conocimientos multiples en areas
+            de construcción y remodelación.
+        </h4>
+        <br>
+        <h4>Si en la lista de trabajos no se encuentra el que buscas ponte en contacto con nosotros
+            ya que tambien contamos con trabajos de sub contratación y surpervisión hasta que tu
+            trabajo este completamente terminado. 
+        </h4>
+        <h4 class="parrafo3">El compromiso con mis clientes es brindarles una agradable 
+            experiencia a la hora de trabajar, es por ello que me baso 
+            en mi etica laborar y en los siguientes principios.
+        </h4>
+
+        <!--GALERIA DE FOTOS DE LOS PRINCIPIOS -->
+        <table class="galeri">
+            <tr>
+                <td>
+                    <div class="galeri_conten">
+                        <div class="foto"><p>Puntualida</p><img src="imagenes/principios/puntualidad1.jpg" alt="img Puntualida"></div>
+                        <div class="pie">
+                            <p>Lorem ipsum dolor</p>
+                            <P>Lorem, ipsum dolor.</P>
+                        </div>
+                    </div>
+                </td>
+                <td>
+                    <div class="galeri_conten">
+                        <div class="foto"><p>Honestida</p><img src="imagenes/principios/honestidad1.jpg" alt="img honestidad"></div>
+                        <div class="pie">
+                            <p>Lorem ipsum dolor</p>
+                            <P>Lorem, ipsum dolor.</P>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    <!-- RESPETO -->
+                    <div class="galeri_conten">
+                        <div class="foto"><p>Respeto</p><img src="imagenes/principios/respeto1.jpg" alt="img respeto"></div>
+                        <div class="pie">
+                            <p>Lorem ipsum dolor</p>
+                            <P>Lorem, ipsum dolor.</P>
+                            </div>
+                        </div>
+                            
+                    </div>
+                </td>
+
+                <td>
+                    <!-- LIMPIEZA -->
+                    <div class="galeri_conten">
+                    <div class="foto"><p>Limpieza</p><img src="imagenes/principios/limpieza1.jpg" alt="img orden y limpieza"></div>
+                        <div class="pie">
+                            <p>Lorem ipsum dolor</p>
+                            <P>Lorem, ipsum dolor.</P>
+                        </div>
+                    </div>
+                </td>
+            </tr>
+
+        </table>  
+        
+        <!-- <div class="galeria">
+                PUNTUALIDAD 
+            <div class="galeri_conten1">
+                <div class="foto"><p>Puntualida</p><img src="imagenes/principios/puntualidad1.jpg" alt="img Puntualida"></div>
+                <div class="pie">
+                    <p>Lorem ipsum dolor</p>
+                    <P>Lorem, ipsum dolor.</P>
+                </div>
+            </div>
+                    HONESTIDAD 
+            <div class="galeri_conten2">
+                <div class="foto"><p>Honestida</p><img src="imagenes/principios/honestidad1.jpg" alt="img honestidad"></div>
+                <div class="pie">
+                    <p>Lorem ipsum dolor</p>
+                    <P>Lorem, ipsum dolor.</P>
+                </div>
+            </div>
+                <! RESPETO >
+            <div class="galeri_conten3">
+                <div class="foto"><p>Respeto</p><img src="imagenes/principios/respeto1.jpg" alt="img respeto"></div>
+                <div class="pie">
+                    <p>Lorem ipsum dolor</p>
+                    <P>Lorem, ipsum dolor.</P>
+                    </div>
+                </div>
+                    
+            </div>
+                <! LIMPIEZA >
+            <div class="galeri_conten4">
+                <div class="foto"><p>Limpieza</p><img src="imagenes/principios/limpieza1.jpg" alt="img orden y limpieza"></div>
+                <div class="pie">
+                <p>Lorem ipsum dolor</p>
+                <P>Lorem, ipsum dolor.</P>
+            </div>
+        </div> -->
+            
+
+        <h4 class="yo">¿Quien soy?</h4>
+        <img class="mifoto" src="imagenes/yo.jpg" alt="mi foto">
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Nemo debitis nihil nobis, excepturi sapiente exercitationem quas
+            fugit est eligendi dolores tenetur corrupti 
+            fuga dolor aut, obcaecati laboriosam ut amet. Dolore?
+        </h4>
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Nemo debitis nihil nobis, excepturi sapiente exercitationem quas
+            fugit est eligendi dolores tenetur corrupti 
+            fuga dolor aut, obcaecati laboriosam ut amet. Dolore
+        </h4>
+        <br>
+        <h4>Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Nemo debitis nihil nobis, excepturi sapiente exercitationem quas
+            fugit est eligendi dolores tenetur corrupti 
+            fuga dolor aut, obcaecati laboriosam ut amet. Dolore?
+        </h4>
+        <br>
+        <h4>    
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. 
+            Nemo debitis nihil nobis, excepturi sapiente exercitationem quas
+            fugit est eligendi dolores tenetur corrupti 
+            fuga dolor aut, obcaecati laboriosam ut amet. Dolore?
+        </h4>
+
+    </div>
+
+
+<?php include("plantillas/pie.php")?>
